@@ -1,0 +1,17 @@
+.display{
+    background-color: #a6b1c3;
+}
+
+.heading {
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+    font-family: 'Lora';
+}
+
+.auctionDetails{
+    padding: 3%;
+    margin: 2%;
+    background-color: rgb(175, 175, 216);
+    border-radius: 10px;
+}
