@@ -1,0 +1,12 @@
+
+  .required {
+      content: "*";
+      font-weight: bold;
+      color: rgb(122, 16, 16);
+  }
+
+  .errorMessages{
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+  }
