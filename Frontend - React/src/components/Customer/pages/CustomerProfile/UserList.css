@@ -1,0 +1,19 @@
+.wrapper{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    /* margin-left: 60rem; */
+    
+
+}
+.main-wrapper{
+    border-radius: 10rem;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(30rem,30rem)); */
+    margin-left: 55rem;
+    /* gap: 1rem; */
+    /* justify-content: center; */
+    display: flex;
+    height: 20rem;
+    width: 18rem;
+   
+}

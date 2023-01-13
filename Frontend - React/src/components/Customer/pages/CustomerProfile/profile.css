@@ -1,0 +1,36 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #14335a;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgb(28, 58, 100), rgb(39, 43, 161));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(20, 42, 126), rgb(102, 124, 213))
+  }
+  
+  #button
+  {
+    margin:-20rem 6rem 2rem 35rem;
+    color:white;
+    background-color: green;
+    border-radius: 1rem;
+    border:1px solid rgb(52, 49, 49);
+  }
+
+  .vh-100
+{
+  margin-top:-10rem;
+}
+
+.headingofid
+{
+  margin-left:5rem;
+  color:rgb(29, 59, 103);
+}
+
+.containerofid
+{
+  margin-top:10rem;
+  height:20rem;
+}

@@ -1,0 +1,128 @@
+body{
+  background-image: fixed;
+}
+
+.head
+{
+  margin-top:1rem;
+  text-align: center;
+  color:rgb(29, 74, 22);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.head1
+{
+  text-align: center;
+  color:rgb(44, 52, 75);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form{
+  background-color: rgb(237, 240, 243);
+  display: flex;
+  min-height: 127vh;
+  height: fit-content;
+  width:125vh;
+  margin-top: 3rem;
+  /* border:1px solid rgb(26, 26, 27); */
+  box-shadow: 2px solid rgb(103, 99, 99);
+  border-radius: 2rem;
+  margin-left:14rem;
+  margin-right:14rem;
+  margin-bottom:2rem;
+
+}
+
+.form__label
+{
+  margin-top: -18px;
+  margin-left: 1rem;
+  display: inline-block;
+  width: 200px;
+}
+
+.form_body h2
+{
+  color:rgb(22, 41, 74);
+}
+
+.form_body
+{
+  min-height:100vh;
+  margin-left: 5rem;
+}
+
+.form_body > *{
+  padding: 8px ;
+}
+
+#name::after{
+position: absolute;
+content:"*";
+color:rgb(210, 42, 42);  
+}
+
+.form__input
+{
+  /* margin-right:10rem; */
+  margin-left:3rem;
+  padding:3px 3px 6px 10px;
+  width:20rem;
+  border-color: white;
+}
+
+.status select{
+  margin-top: -0.5rem;
+  margin-left:15.3rem;
+  padding:3px 3px 6px 10px;
+  width:20rem;
+}
+
+.Chitty_Type select {
+  margin-left:11.3rem;
+  padding:3px 3px 6px 10px;
+  width:20rem;
+}
+
+.topnav {
+  background-color: rgb(24, 43, 67);
+  overflow: hidden;
+}
+
+.topnav h1
+{
+  color:white
+}
+
+.btn
+{
+  padding:0.5rem 1rem 0.5rem 1rem;
+  border-radius:10px;
+  background-color: rgb(54, 164, 56);
+  color:white;
+  border-color: aliceblue;
+  margin-top: 39rem;
+  margin-left:-9rem;
+  /* margin:1rem 3rem 4rem 2rem; */
+}
+
+.footer
+{
+  margin-top: 3.7rem;
+  margin-left:-10rem;
+
+}
+
+.nominee{
+  margin:0 45%;
+}
+
+.required {
+  content: "*";
+  font-weight: bold;
+  color: rgb(122, 16, 16);
+}
+
+.errorMessage{
+  font-weight: 300;
+  color: red;
+}
